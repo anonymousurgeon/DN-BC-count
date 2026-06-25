@@ -1,0 +1,77 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python / MATLAB / analysis caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.asv
+
+# Node or other package dependencies
+node_modules/
+vendor/
+
+# Logs and generated reports
+*.log
+logs/
+coverage/
+
+# Build and temporary outputs
+build/
+dist/
+out/
+tmp/
+temp/
+.cache/
+
+# Raw/source data folders
+Source_Data/
+MRI_positive_FCD2/
+MEA/
+ConvertTool_v1.6/
+histo2mri/Archive/
+histo2mri/Test_Demo/
+fruits.txt
+
+# Archives and packaged datasets
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Large biomedical image/data formats
+*.nii
+*.nii.gz
+*.czi
+*.svs
+*.ndpi
+*.kfb
+*.tif
+*.tiff
+*.ome.tif
+*.ome.tiff
+
+# Compiled binaries and vendor DLLs
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+
+# QuPath / ImageJ derived exports that can be regenerated
+*.qpdata
+*.qpproj
